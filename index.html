@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./CSS/styles.css" />
+</head>
+
+<body class="dark">
+
+  <main class="container fade-in">
+    <header class="hero">
+      <div class="title">
+      <h1>🌤️ Weather App ⛈️</h1>
+      <!-- Dark mode toggle -->
+      <button id="theme-toggle" class="theme-toggle-inline">Modo oscuro</button>
+      <p>Esta es una aplicación que consume la API de Open-Meteo para mostrar el clima en tiempo real por ciudad. Puedes consultar el clima de cualquier ciudad del mundo.</p>
+      </div>  
+    </header>
+
+    <section class="search-card">
+      <input id="city-input" type="text" placeholder="Escribe una ciudad..." />
+      <button id="search-btn">Buscar</button>
+    </section>
+
+    <section class="weather-card" id="result"></section>
+
+    <footer class="footer">
+    <p>Hecho con Open-Meteo API · Portafolio Frontend</p>
+    </footer>
+
+  </main>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>
