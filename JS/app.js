@@ -1,3 +1,5 @@
+console.log("🔥 app.js cargado en GitHub Pages");
+
 import { getWeatherByCity } from "./api.js";
 import { renderWeather, renderError, showLoading } from "./ui.js";
 
